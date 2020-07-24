@@ -43,15 +43,15 @@ def find_valid_calls(planeteer_calls)
 # end
 
 
-counter = 0
-while counter < planeteer_calls.length do
-  if  planeteer_calls.index("Earth!" || "Wind!" || "Fire!" || "Water!" || "Heart!")
-    return planeteer_calls[counter]
-    end
-  counter += 1
-  end
-return nil
-end
+# counter = 0
+# while counter < planeteer_calls.length do
+#   if  planeteer_calls.index("Earth!" || "Wind!" || "Fire!" || "Water!" || "Heart!")
+#     return planeteer_calls[counter]
+#     end
+#   counter += 1
+#   end
+# return nil
+# end
 
  
 
