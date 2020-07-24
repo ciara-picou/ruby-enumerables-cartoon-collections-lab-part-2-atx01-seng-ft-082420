@@ -29,7 +29,7 @@ def find_valid_calls(planeteer_calls)
   
   #SOME OTHER APPROACHES BELOW:
 
-planeteer_calls.find{ |index| index == "Earth!" || "Wind!" || "Fire!" || "Water!" || "Heart!"}
+planeteer_calls.find{ |index| index valid_calls.include?}
 end
 
 # counter = 0
